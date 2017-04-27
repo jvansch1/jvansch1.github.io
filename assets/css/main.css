@@ -7475,6 +7475,10 @@
 		.items.style1.medium > * {
 			padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem ;
 			width: 33.33333%;
+			background-color: #F9F9F9
+		}
+		.items.style1.medium > *:hover {
+			background-color: white;
 		}
 
 			.items.style1.medium > *:nth-child(-n + 3) {
@@ -8442,4 +8446,14 @@ i {
 
 .devicon-babel-plain::before {
 	color: black;
+}
+
+/*video {
+	object-fit: fill;
+}*/
+
+#video-container {
+	overflow: hidden;
+	background: white;
+	margin-top: 15px;
 }
